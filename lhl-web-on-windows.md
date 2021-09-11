@@ -1,6 +1,6 @@
 # Using Windows for LHL Web Dev
 
-### Big thank you to Zai, Yves, Andrew and Adam
+### Big thank you to Habib, [Yves](https://github.com/ycandau), [Andrew](https://github.com/ahSOLO) and Adam
 ### https://web-prep-help.lighthouselabs.ca/t/win10-users-setup-tutorials-setup-info-dump/7031/
 
 ## AMD CPU Users start here: 
