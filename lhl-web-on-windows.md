@@ -55,6 +55,6 @@ https://www.microsoft.com/en-ca/p/windows-terminal/9n0dx20hk701?
 
 ## Head back to Compass to connect your GitHub account!
 
-## To prevent symlink issues when installing node packages
+## To prevent symlink issues when installing packages with mpm
 Always run Windows Terminal as Administrator
 
