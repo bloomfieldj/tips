@@ -58,3 +58,21 @@ https://www.microsoft.com/en-ca/p/windows-terminal/9n0dx20hk701?
 ## To prevent symlink issues when installing packages with npm
 Always run Windows Terminal as Administrator
 
+## To set node env variables
+Update package.json file script with SET and &&.
+SET: Assigns value to a variable
+&&: Tells windows to run consecutive commands, careful not to leave a space between the first command and the &&
+
+```
+"scripts":
+    "error": "TEST_ERROR=true node ./src/index.js"
+}
+```
+![Default script](https://github.com/bloomfieldj/tips/blob/main/env.jpg?raw=true)
+
+```
+"scripts":
+    "windowserror": "SET TEST_ERROR=true&& node ./src/index.js"
+}
+```
+![Windows script](https://github.com/bloomfieldj/tips/blob/main/envfix.jpg?raw=true)
